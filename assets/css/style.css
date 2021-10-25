@@ -24,7 +24,7 @@ li {
     display: none;
 }
 
-/* ----------------------------------- Header */
+/* ---------------------------------- Header */
 .header {
     background-color: #1d1d1b;
     height: 200px;
@@ -38,14 +38,14 @@ li {
     margin: 0 auto;
 }
 
-/* ----------------------------------- Divider */
+/* ---------------------------------- Divider */
 .divider {
     background-color: #c11734;
     width: 100%;
     height: 2px;
 }
 
-/* ----------------------------------- Hero Image */
+/* ----------------------------------  Hero Image */
 #hero-image {
     background: url('../images/hero-img.jpg') no-repeat center center;
     background-size: cover;
@@ -54,7 +54,7 @@ li {
     z-index: -1;
 }
 
-/* ----------------------------------- Navigation Bar */
+/* ---------------------------------- Navigation Bar */
 #navbar {
     font-family: Lobster, sans-serif;
     font-size: 25px;
@@ -80,3 +80,121 @@ li {
     color: #FFFFFF;
 }
 
+/* ---------------------------------- Code Credit to https://github.com/IanLunn/Hover */
+/* ---------------------------------- Icon Fade */
+.hvr-icon-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-icon-fade .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color;
+    transition-property: color;
+}
+
+.hvr-icon-fade:hover .hvr-icon,
+.hvr-icon-fade:focus .hvr-icon,
+.hvr-icon-fade:active .hvr-icon {
+    color: #c11734;
+}
+
+/* ---------------------------------- Icon Wobble Vertical */
+@-webkit-keyframes hvr-icon-wobble-vertical {
+    16.65% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+
+    33.3% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+    49.95% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+
+    66.6% {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+
+    83.25% {
+        -webkit-transform: translateY(1px);
+        transform: translateY(1px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes hvr-icon-wobble-vertical {
+    16.65% {
+        -webkit-transform: translateY(6px);
+        transform: translateY(6px);
+    }
+
+    33.3% {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+    49.95% {
+        -webkit-transform: translateY(4px);
+        transform: translateY(4px);
+    }
+
+    66.6% {
+        -webkit-transform: translateY(-2px);
+        transform: translateY(-2px);
+    }
+
+    83.25% {
+        -webkit-transform: translateY(1px);
+        transform: translateY(1px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.hvr-icon-wobble-vertical {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.hvr-icon-wobble-vertical .hvr-icon {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.hvr-icon-wobble-vertical:hover .hvr-icon,
+.hvr-icon-wobble-vertical:focus .hvr-icon,
+.hvr-icon-wobble-vertical:active .hvr-icon {
+    -webkit-animation-name: hvr-icon-wobble-vertical;
+    animation-name: hvr-icon-wobble-vertical;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+/* ---------------------------------- End Credit */
