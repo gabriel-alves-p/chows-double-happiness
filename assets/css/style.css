@@ -38,7 +38,7 @@ li {
     margin: 0 auto;
 }
 
-.instagram {
+.instagram-icon {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -48,12 +48,20 @@ li {
     background-color: #ffffff;
 }
 
-.instagram a {
+.instagram-icon a {
     font-size: 35px;
     color: #1d1d1b;
     position: absolute;
     left: 9px;
     top: 6px;
+}
+
+.instagram-msg {
+    font-family: Lobster, sans-serif;
+    color: #ffffff;
+    position: absolute;
+    left: 90px;
+    top: 45px;
 }
 
 /* ---------------------------------- Divider */
@@ -241,3 +249,14 @@ li {
     transform: rotate(20deg);
   }
 /* ---------------------------------- End Credit */
+
+/* ---------------------------------- Welcome Message */
+#welcome-msg {
+    display: block;
+    margin-left: 550px;
+    margin-top: 30px;
+    height: 350px;
+    width: 600px;
+    border-radius: 8%;
+    background-color: rgba(0, 0, 0, .7);
+}
