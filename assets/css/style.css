@@ -1,1 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap');
+
+/* ----------------------------------- Header */
+.header {
+    background-color: #1d1d1b;
+    height: 200px;
+    width: 100%;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* ----------------------------------- Divider */
+
+.divider {
+    background-color: #c11734;
+    width: 100%;
+    height: 2px;
+}
