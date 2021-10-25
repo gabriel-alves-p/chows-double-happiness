@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap');
 
+/* ---------------------------------- General Stylings */
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 /* ----------------------------------- Header */
 .header {
     background-color: #1d1d1b;
@@ -15,7 +35,6 @@
 }
 
 /* ----------------------------------- Divider */
-
 .divider {
     background-color: #c11734;
     width: 100%;
