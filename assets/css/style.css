@@ -297,5 +297,43 @@ li {
 /* ----------------------------------  Our Story */
 #our-story {
     width: 100%;
+    height: 600px;
+}
+
+.story {
+    width: 45%;
     height: 500px;
+    background-color: rgba(0, 0, 0, .7);
+    border: 1px solid #000;
+    margin: 50px 0;
+    border-radius: 5%;
+    position: absolute;
+}
+
+.story-p {
+    left: 65px;
+}
+
+.story-p h1 {
+    font-family: Lobster, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+.story-p p {
+    color: #ffffff;
+    font-family: Comfortaa, sans-serif;
+    font-size: 19px;
+    margin: 30px;
+}
+
+.story-img {
+    background: url('../images/jars.jpg') no-repeat center center;
+    background-size: cover;
+    right: 65px;
+    height: 300px;
+    width: 40%;
+    margin-top: 150px;
 }
