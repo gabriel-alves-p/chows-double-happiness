@@ -314,7 +314,7 @@ li {
     left: 65px;
 }
 
-.story-p h1 {
+section h1 {
     font-family: Lobster, sans-serif;
     font-size: 40px;
     text-align: center;
@@ -336,4 +336,17 @@ li {
     height: 300px;
     width: 40%;
     margin-top: 150px;
+}
+
+/* ---------------------------------- Where To Find Us */
+#find-us {
+    height: 700px;
+}
+
+#google-map {
+    width: 40%;
+    height: 400px;
+    position: absolute;
+    left: 80px;
+    margin-top: 60px;
 }
