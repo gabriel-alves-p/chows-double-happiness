@@ -269,8 +269,8 @@ li {
 #welcome-msg {
     display: block;
     margin-left: 550px;
-    margin-top: 30px;
-    height: 350px;
+    margin-top: 38px;
+    height: 400px;
     width: 600px;
     border-radius: 8%;
     background-color: rgba(0, 0, 0, .7);
@@ -283,6 +283,7 @@ li {
     text-align: left;
     color: #ffffff;
     margin: 30px;
+    padding-top: 30px;
 }
 
 #welcome-msg p {
