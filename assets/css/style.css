@@ -18,6 +18,7 @@ html {
 
 body {
     background-color: #1d1d1b;
+    line-height: normal;
 }
 
 * {
@@ -30,6 +31,10 @@ body {
 a {
     text-decoration: none;
     color: #ffffff;
+}
+
+a:hover {
+    color: #c11734;
 }
 
 li {
@@ -340,7 +345,7 @@ section h1 {
 
 /* ---------------------------------- Where To Find Us */
 #find-us {
-    height: 1000px;
+    height: 920px;
 }
 
 #find-us h1 {
@@ -368,8 +373,8 @@ section h1 {
 }
 
 #locations a {
-    font-family: Lobster, sans-serif;
-    font-size: 25px;
+    font-family: Comfortaa, sans-serif;
+    font-size: 23px;
     border-bottom: 1px solid #c11734;
     width: 100%;
     padding-left: 30px;
@@ -377,7 +382,7 @@ section h1 {
 
 #locations p {
     font-family: Comfortaa, sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     padding-left: 30px;
 }
 
@@ -387,3 +392,5 @@ section h1 {
     text-align: left;
     margin: 20px 0;
 }
+
+/* ---------------------------------- Recipes */
