@@ -133,6 +133,11 @@ li {
     color: #FFFFFF;
 }
 
+#navbar a:hover {
+    color: #c11734;
+    text-decoration-line: none;
+}
+
 /* ---------------------------------- Code Credit to https://github.com/IanLunn/Hover */
 /* ---------------------------------- Icon Fade */
 .hvr-icon-fade {
@@ -405,7 +410,7 @@ section h1 {
 }
 
 .recipes-p {
-    height: 800px;
+    height: 900px;
     width: 70%;
     background-color: rgba(0, 0, 0, .7);
     border: 1px solid #000;
@@ -414,6 +419,7 @@ section h1 {
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 .recipes-p p {
@@ -426,4 +432,15 @@ section h1 {
 .carousel {
     height: 200px;
     width: 300px;
+    margin: 30px 0;
+    position: absolute;
+}
+
+#steak-carousel {
+    right: 20px;
+}
+
+#stirfry-carousel {
+    right: 20px;
+    bottom: 20px;
 }
