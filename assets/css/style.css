@@ -405,5 +405,25 @@ section h1 {
 }
 
 .recipes-p {
-    height: auto;
+    height: 800px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, .7);
+    border: 1px solid #000;
+    margin: 50px 0;
+    border-radius: 5%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.recipes-p p {
+    color: #ffffff;
+    font-family: Comfortaa, sans-serif;
+    font-size: 18px;
+    margin: 30px;
+}
+
+.carousel {
+    height: 200px;
+    width: 300px;
 }
