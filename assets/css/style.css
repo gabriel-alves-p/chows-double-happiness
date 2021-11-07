@@ -365,7 +365,13 @@ section h1 {
 
 /* ---------------------------------- Where To Find Us */
 #find-us {
-    height: 920px;
+    height: 1200px;
+    width: 100%;
+    background: url('../images/locations-background-img.jpg') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    display: flex;
 }
 
 #find-us h1 {
@@ -373,19 +379,17 @@ section h1 {
 }
 
 #google-map {
-    width: 40%;
-    height: 400px;
-    position: absolute;
-    left: 80px;
-    margin-top: 60px;
+    width: 80%;
+    height: 275px;
+    margin: 0 70px;
 }
 
 #locations {
-    width: 46%;
-    height: 820px;
+    width: 60%;
+    height: 1100px;
     position: absolute;
-    right: 80px;
-    background-color: rgba(0, 0, 0, .7);
+    left: 80px;
+    background-color: rgba(0, 0, 0, .8);
     border-radius: 5%;
     border: 1px solid #000;
     margin-top: 50px;
@@ -404,6 +408,7 @@ section h1 {
     font-family: Comfortaa, sans-serif;
     font-size: 15px;
     padding-left: 30px;
+    padding-top: 5px;
 }
 
 .location {
@@ -449,6 +454,10 @@ section h1 {
 
 .thumbnail {
     background-color: rgba(0, 0, 0, 0);
+}
+
+.thumbnail:hover {
+    background-color: rgba(0, 0, 0, .3)
 }
 
 .thumbnail p {
