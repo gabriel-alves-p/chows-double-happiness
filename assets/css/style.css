@@ -459,24 +459,24 @@ section h1 {
 
 #steak-carousel,
 #steak-thumbnail {
-    right: 80px;
+    right: 60px;
     margin-top: 30px;
 }
 
 #stirfry-carousel,
 #stirfry-thumbnail {
-    right: 80px;
+    right: 60px;
     bottom: 60px;
 }
 
 #bol-carousel,
 #bol-thumbnail {
-    left: 80px;
+    left: 60px;
     bottom: 60px;
 }
 
 #mullet-carousel,
 #mullet-thumbnail {
-    left: 80px;
+    left: 60px;
     margin-top: 30px;
 }
