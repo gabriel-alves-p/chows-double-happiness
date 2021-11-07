@@ -3,12 +3,14 @@
 /* ---------------------------------- Code Credit to https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load/12638711#12638711 */
 @keyframes slideInFromLeft {
     0% {
-      transform: translateX(-100%);
+        transform: translateX(-100%);
     }
+
     100% {
-      transform: translateX(0);
+        transform: translateX(0);
     }
-  }
+}
+
 /* ---------------------------------- End Credit */
 
 /* ---------------------------------- General Stylings / Overriding Bootstrap Styles */
@@ -267,8 +269,9 @@ li {
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
-  }
-  .hvr-icon-rotate .hvr-icon {
+}
+
+.hvr-icon-rotate .hvr-icon {
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
     -webkit-transition-duration: 0.3s;
@@ -277,11 +280,15 @@ li {
     transition-property: transform;
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
-  }
-  .hvr-icon-rotate:hover .hvr-icon, .hvr-icon-rotate:focus .hvr-icon, .hvr-icon-rotate:active .hvr-icon {
+}
+
+.hvr-icon-rotate:hover .hvr-icon,
+.hvr-icon-rotate:focus .hvr-icon,
+.hvr-icon-rotate:active .hvr-icon {
     -webkit-transform: rotate(20deg);
     transform: rotate(20deg);
-  }
+}
+
 /* ---------------------------------- End Credit */
 
 /* ---------------------------------- Welcome Message */
@@ -408,11 +415,11 @@ section h1 {
 
 /* ---------------------------------- Recipes */
 #recipes {
-    height: 1000px;
+    height: 900px;
 }
 
 .recipes-p {
-    height: 900px;
+    height: 850px;
     width: 70%;
     background-color: rgba(0, 0, 0, .7);
     border: 1px solid #000;
@@ -431,28 +438,45 @@ section h1 {
     margin: 30px;
 }
 
-.carousel {
-    height: 200px;
-    width: 300px;
-    margin: 30px 0;
+.carousel,
+.thumbnail {
+    height: 230px;
+    width: 350px;
     position: absolute;
     overflow: hidden;
+    border: 1px solid #c11734;
 }
 
-#steak-carousel {
-    right: 20px;
+.thumbnail {
+    background-color: rgba(0, 0, 0, 0);
 }
 
-#stirfry-carousel {
-    right: 20px;
-    bottom: 20px;
+.thumbnail p {
+    font-size: 22px;
+    margin-top: 200px;
+    margin-left: 10px;
 }
 
-#bol-carousel {
-    left: 20px;
-    bottom: 20px;
+#steak-carousel,
+#steak-thumbnail {
+    right: 80px;
+    margin-top: 30px;
 }
 
-#mullet-carousel {
-    left: 20px;
+#stirfry-carousel,
+#stirfry-thumbnail {
+    right: 80px;
+    bottom: 60px;
+}
+
+#bol-carousel,
+#bol-thumbnail {
+    left: 80px;
+    bottom: 60px;
+}
+
+#mullet-carousel,
+#mullet-thumbnail {
+    left: 80px;
+    margin-top: 30px;
 }
