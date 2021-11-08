@@ -503,7 +503,7 @@ section h1 {
 
 .reviews-container {
     width: 70%;
-    height: 600px;
+    height: 700px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, .8);
     border-radius: 5%;
@@ -511,10 +511,21 @@ section h1 {
 
 .reviews-container h1 {
     padding-top: 20px;
+    margin-top: 0;
 }
 
 .reviews-container p {
     font-family: Comfortaa, sans-serif;
     font-size: 20px;
     color: #ffffff;
+}
+
+.reviews-p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.review-quotes {
+    text-align: left;
+    margin: 60px 20px 60px 20px;
 }
