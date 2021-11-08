@@ -365,7 +365,7 @@ section h1 {
 
 /* ---------------------------------- Where To Find Us */
 #find-us {
-    height: 1200px;
+    height: 1230px;
     width: 100%;
     background: url('../images/locations-background-img.jpg') no-repeat center center;
     background-size: cover;
@@ -382,11 +382,12 @@ section h1 {
     width: 80%;
     height: 275px;
     margin: 0 70px;
+    margin-bottom: 30px;
 }
 
 #locations {
     width: 60%;
-    height: 1100px;
+    height: 1130px;
     position: absolute;
     left: 80px;
     background-color: rgba(0, 0, 0, .8);
