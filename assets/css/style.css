@@ -492,18 +492,29 @@ section h1 {
 
 /* ---------------------------------- Reviews */
 #reviews {
-    height: 900px;
+    height: 800px;
+    width: 100%;
+    background: url('../images/reviews-bg.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+    padding-top: 50px;
 }
 
 .reviews-container {
     width: 70%;
-    height: 800px;
+    height: 600px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .8);
     border-radius: 5%;
-    margin-top: 50px;
 }
 
 .reviews-container h1 {
     padding-top: 20px;
+}
+
+.reviews-container p {
+    font-family: Comfortaa, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
 }
