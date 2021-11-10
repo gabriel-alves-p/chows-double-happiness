@@ -493,7 +493,7 @@ section h1 {
 
 /* ---------------------------------- Reviews */
 #reviews {
-    height: 800px;
+    height: 950px;
     width: 100%;
     background: url('../images/reviews-bg.jpg') no-repeat center center;
     background-attachment: fixed;
@@ -504,7 +504,7 @@ section h1 {
 
 .reviews-container {
     width: 70%;
-    height: 700px;
+    height: 850px;
     margin: 0 auto;
     background-color: rgba(0, 0, 0, .8);
     border-radius: 5%;
@@ -528,5 +528,17 @@ section h1 {
 
 .review-quotes {
     text-align: left;
-    margin: 60px 20px 60px 20px;
+    margin: 60px 20px 0 20px;
+}
+
+.quote-name {
+    text-align: left;
+    margin: 0;
+    padding: 10px 0 0 20px;
+}
+
+/* ---------------------------------- Contact Us */
+#contact-us {
+    height: 1000px;
+    width: 100%;
 }
