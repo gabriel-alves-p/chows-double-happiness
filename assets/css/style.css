@@ -493,7 +493,7 @@ section h1 {
     height: 1210px;
 }
 
-#recipe-container {
+.recipe-container {
     width: 70%;
     height: 1110px;
     margin: 0 auto;
@@ -505,7 +505,7 @@ section h1 {
     position: relative;
 }
 
-#recipe-container h1, h3 {
+.recipe-container h1, h3 {
     font-family: Lobster, sans-serif;
     padding-bottom: 8px;
 }
@@ -519,7 +519,7 @@ section h1 {
     margin: 0 50px 30px 50px;
 }
 
-#recipe-container li {
+.recipe-container li {
     padding-bottom: 12px;
 }
 
@@ -529,6 +529,14 @@ section h1 {
     top: 150px;
     height: 265px;
     width: 400px;
+}
+
+.bolognese {
+    height: 1400px;
+}
+
+.bolognese-container {
+    height: 1300px;
 }
 
 /* ---------------------------------- Reviews */
