@@ -539,6 +539,14 @@ section h1 {
     height: 1300px;
 }
 
+.steak {
+    height: 1250px;
+}
+
+.steak-container {
+    height: 1150px;
+}
+
 /* ---------------------------------- Reviews */
 #reviews {
     height: 950px;
