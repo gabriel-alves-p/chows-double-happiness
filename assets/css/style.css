@@ -111,7 +111,7 @@ ul {
 /* ---------------------------------- Navigation Bar */
 #navbar {
     font-family: Lobster, sans-serif;
-    font-size: 25px;
+    font-size: 22px;
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, .7);
@@ -123,13 +123,12 @@ ul {
 
 #navbar li {
     line-height: 75px;
-    width: 16.6%;
     float: left;
     list-style-type: none;
+    margin: 0 50px;
 }
 
 #navbar a {
-    margin: 0 auto;
     color: #FFFFFF;
     text-decoration: none;
 }
