@@ -119,13 +119,13 @@ ul {
     height: 80px;
     text-align: center;
     z-index: 1;
-    list-style-type: none;
 }
 
 #navbar li {
     line-height: 75px;
     width: 16.6%;
     float: left;
+    list-style-type: none;
 }
 
 #navbar a {
@@ -595,6 +595,53 @@ section h1 {
 
 /* ---------------------------------- Contact Us */
 #contact-us {
-    height: 1000px;
+    height: 350px;
     width: 100%;
+    background-color: #1d1d1b;
+    position: relative;
+}
+
+.contact-us-container {
+    width: 40%;
+    height: 250px;
+    color: #ffffff;
+    position: absolute;
+    left: 30%;
+    top: 50px;
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 3%;
+}
+
+.contact-us-container p {
+    font-family: Comfortaa, sans-serif;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.email {
+    font-size: 25px;
+    color: #c11734;
+}
+
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+.footer-content {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 70px;
+}
+
+/* ---------------------------------- 404 Page */
+.page-404 {
+    padding-top: 30px;
+    font-family: Lobster, sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
