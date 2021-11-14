@@ -125,7 +125,8 @@ ul {
     line-height: 75px;
     float: left;
     list-style-type: none;
-    margin: 0 50px;
+    width: 16.5%;
+    margin: 0 auto;
 }
 
 #navbar a {
