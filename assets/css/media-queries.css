@@ -54,4 +54,64 @@
 /* ---------------------------------- Large Devices (968px wide and down) */
 @media (max-width: 968px) {
 
+    /* ------------------------------ index.html */
+    #navbar {
+        height: 60px;
+    }
+
+    #navbar li {
+        font-size: 16px;
+        line-height: normal;
+        padding-top: 20px;
+    }
+
+    .story-img {
+        right: 30px;
+    }
+
+    .story-p {
+        left: 30px;
+        width: 500px;
+    }
+
+    #locations {
+        width: 85%;
+        left: 7.5%;
+    }
+
+    #recipes {
+        height: 860px;
+    }
+
+    .recipes-p {
+        width: 85%;
+        height: 800px;
+    }
+
+    #bol-carousel,
+    #bol-thumbnail,
+    #mullet-carousel,
+    #mullet-thumbnail,
+    #steak-carousel,
+    #steak-thumbnail,
+    #stirfry-carousel,
+    #stirfry-thumbnail {
+        height: 200px;
+        width: 320px;
+    }
+
+    .thumbnail p {
+        font-size: 20px;
+        margin-top: 160px;    
+    }
+
+    .contact-us-container {
+        width: 60%;
+    }
+
+    /* ------------------------------ mullet-recipe.html */
+    #recipe-carousel {
+        width: 370px;
+        height: 230px;
+    }
 }
