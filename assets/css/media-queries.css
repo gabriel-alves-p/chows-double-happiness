@@ -1,0 +1,48 @@
+/* ---------------------------------- Larger Devices (1065px wide and down) */
+@media (max-width: 1065px) {
+
+    /* ------------------------------ index.html */
+    #navbar li {
+        font-size: 20px;
+    }
+
+    .hero-image {
+        height: 480px;
+    }
+
+    #welcome-msg {
+        margin-right: 100px;
+    }
+
+    #welcome-msg p {
+        margin: 20px;
+        font-size: 18px;
+    }
+
+    .story p {
+        font-size: 15px;
+    }
+
+    .recipes-p {
+        width: 83%;
+    }
+
+    /* ------------------------------ mullet-recipe.html */
+    .recipe-hero {
+        height: 1220px;
+    }
+
+    .recipe-container {
+        width: 88%;
+    }
+
+    /* ------------------------------ bolognese-recipe.html */
+    .bolognese {
+        height: 1400px;
+    }
+
+    .bolognese-container {
+        width: 90%;
+    }
+
+}
