@@ -115,3 +115,53 @@
         height: 230px;
     }
 }
+
+/* ---------------------------------- Medium Devices (768px wide and down) */
+@media (max-width: 968px) {
+    
+    /* ------------------------------ index.html */
+    .hero-image {
+        background-attachment: scroll;
+    }
+
+    #welcome-msg {
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    #navbar li {
+        width: 16.5%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    #our-story {
+        height: 860px;
+        position: relative;
+    }
+
+    .story-p {
+        width: 90%;
+        left: 5%;
+        height: 760px;
+    }
+
+    .story-img {
+        width: 70%;
+        right: 15%;
+        top: 310px;
+    }
+
+    #find-us {
+        background-attachment: scroll;
+    }
+
+    #locations {
+        width: 90%;
+        left: 5%;
+    }
+
+    .recipes-p {
+        width: 90%;
+    }
+}
