@@ -11,7 +11,8 @@
     }
 
     #welcome-msg {
-        margin-right: 100px;
+        margin-left: 400px;
+        width: 500px;
     }
 
     #welcome-msg p {
@@ -20,11 +21,15 @@
     }
 
     .story p {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .recipes-p {
         width: 83%;
+    }
+
+    .reviews-container {
+        width: 85%;
     }
 
     /* ------------------------------ mullet-recipe.html */
@@ -44,5 +49,9 @@
     .bolognese-container {
         width: 90%;
     }
+}
+
+/* ---------------------------------- Large Devices (968px wide and down) */
+@media (max-width: 968px) {
 
 }
