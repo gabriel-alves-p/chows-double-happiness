@@ -623,6 +623,7 @@ section h1 {
     color: #c11734;
 }
 
+/* ---------------------------------- Footer */
 footer {
     height: 150px;
     width: 100%;
@@ -636,6 +637,12 @@ footer {
     text-align: center;
     color: #ffffff;
     padding-top: 70px;
+}
+
+#siteseal {
+    position: absolute;
+    right: 30px;
+    top: 60px;
 }
 
 /* ---------------------------------- 404 Page */
