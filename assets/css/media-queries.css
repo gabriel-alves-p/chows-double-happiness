@@ -117,9 +117,17 @@
 }
 
 /* ---------------------------------- Medium Devices (768px wide and down) */
-@media (max-width: 968px) {
+@media (max-width: 768px) {
     
     /* ------------------------------ index.html */
+    h1 {
+        font-size: 35px !important;
+    }
+
+    .instagram-msg {
+        font-size: 13px;
+    }
+
     .hero-image {
         background-attachment: scroll;
     }
@@ -161,7 +169,119 @@
         left: 5%;
     }
 
+    #recipes {
+        height: 720px;
+    }
+
     .recipes-p {
         width: 90%;
+        height: 660px;
+    }
+
+    #bol-carousel,
+    #bol-thumbnail,
+    #mullet-carousel,
+    #mullet-thumbnail,
+    #steak-carousel,
+    #steak-thumbnail,
+    #stirfry-carousel,
+    #stirfry-thumbnail {
+        height: 150px;
+        width: 270px;
+    }
+
+    .thumbnail p {
+        font-size: 16px;
+        margin-top: 120px;    
+    }
+
+    #reviews {
+        height: 830px;
+        background-attachment: scroll;
+    }
+
+    .reviews-container {
+        width: 90%;
+        height: 730px;
+    }
+
+    .reviews-container p {
+        font-size: 18px;
+    }
+
+    .review-quotes {
+        margin-top: 40px;
+    }
+
+    .contact-us-container {
+        width: 80%;
+    }
+
+    footer {
+        height: 250px;
+    }
+
+    .footer-instagram {
+        width: 40%;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    #siteseal {
+        left: 41.25%;
+        top: 105px;
+    }
+
+    .footer-content {
+        width: 40%;
+        padding-top: 180px;
+    }
+
+    /* ------------------------------ mullet-recipe.html */
+    .recipe-hero {
+        height: 1560px;
+    }
+
+    .recipe-container {
+        margin-top: 40px;
+        height: 1480px;
+    }
+
+    .ingredients {
+        padding-top: 260px;
+    }
+
+    #recipe-carousel {
+        top: 185px;
+        right: 150px;
+    }
+
+    /* ------------------------------ steak-recipe.html */
+    .steak-carousel-large {
+        top: 220px !important;
+    }
+
+    /* ------------------------------ stirfry-recipe.html */
+    .stirfry-container {
+        height: 1380px;
+    }
+
+    .stirfry-page {
+        height: 1470px;
+    }
+
+    /* ------------------------------ bolognese-recipe.html */
+    .bolognese {
+        height: 1690px;
+    }
+
+    .bolognese-container {
+        height: 1600px;
+    }
+
+    /* ------------------------------ 404.html */
+    .page-404 {
+        height: 300px !important;
+        padding-top: 0 !important;
     }
 }
