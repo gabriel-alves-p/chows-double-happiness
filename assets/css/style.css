@@ -46,7 +46,62 @@ ul {
     border: 0;
 }
 
-.hidden {
+.navigation.hidden {
+    display: none;
+}
+
+.header.hide {
+    display: none;
+}
+
+.navigation-mobile.hide {
+    display: none;
+}
+
+/* ---------------------------------- Mobile Navigation Bar */
+.navigation-mobile {
+    height: 80px;
+    width: 100%;
+    background-color: #1d1d1b;
+    position: sticky;
+    top: 0;
+}
+
+.mobile-logo {
+    background: url('../images/logo.jpg');
+    height: 80px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+.navigation-mobile ul {
+    float: right;
+    margin-right: 40px;
+    position: fixed;
+    font-family: Lobster, sans-serif;
+}
+
+.navigation-mobile li {
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+
+.navigation-mobile a {
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 7px 10px;
+}
+
+.navigation-mobile #icon {
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 0;
+    cursor: pointer;
     display: none;
 }
 
