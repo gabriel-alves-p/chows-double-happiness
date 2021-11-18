@@ -51,3 +51,9 @@ jQuery(document).ready(function($) {
         $('ul').toggleClass('show');
     })
 })
+
+$(document).ready(function(){
+  $('.mobile-li').click(function(){
+      $('ul').toggleClass('show');
+  })
+})

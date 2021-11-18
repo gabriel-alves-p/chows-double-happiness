@@ -63,13 +63,14 @@ ul {
     height: 80px;
     width: 100%;
     background-color: #1d1d1b;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 2px solid #c11734;
 }
 
 .mobile-logo {
     background: url('../images/logo.jpg');
-    height: 80px;
+    height: 78px;
     width: 80px;
     margin-left: 20px;
 }
@@ -77,8 +78,8 @@ ul {
 .navigation-mobile ul {
     float: right;
     margin-right: 40px;
-    position: fixed;
     font-family: Lobster, sans-serif;
+    position: fixed;
 }
 
 .navigation-mobile li {
@@ -90,7 +91,6 @@ ul {
 .navigation-mobile a {
     color: #ffffff;
     font-size: 18px;
-    text-transform: uppercase;
     padding: 7px 10px;
 }
 

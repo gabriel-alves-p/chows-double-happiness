@@ -170,34 +170,6 @@
         margin-top: 35px;
     }
 
-    .navigation-mobile #icon {
-        display: block;
-    }
-
-    .navigation-mobile ul {
-        width: 100%;
-        height: 100vh;
-        background-color: #1d1d1b;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-
-    .navigation-mobile li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
-
-    .navigation-mobile a {
-        font-size: 20px;
-    }
-
-    .navigation-mobile ul.show {
-        left: 0;
-    }
-
     #navbar li {
         width: 16.5%;
         margin: 0 auto;
@@ -345,4 +317,41 @@
         height: 300px !important;
         padding-top: 0 !important;
     }
+}
+
+/* ---------------------------------- Medium Devices (767px wide and down) */
+@media (max-width: 767px) {
+    
+    #intro {
+        margin-top: 78px;
+    }
+    
+    .navigation-mobile #icon {
+        display: block;
+    }
+
+    .navigation-mobile ul {
+        width: 100%;
+        height: 100vh;
+        background-color: #1d1d1b;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .navigation-mobile li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    .navigation-mobile a {
+        font-size: 20px;
+    }
+
+    .navigation-mobile ul.show {
+        left: 0;
+    }
+
 }
