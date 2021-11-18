@@ -491,6 +491,8 @@ section h1 {
 /* ---------------------------------- Recipes (recipe pages) */
 .recipe-hero {
     height: 1210px;
+    background: url('../images/recipes-bg.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 .recipe-container {
@@ -498,7 +500,7 @@ section h1 {
     height: 1110px;
     margin: 0 auto;
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .8);
     border-radius: 5%;
     color: #ffffff;
     font-family: Comfortaa, sans-serif;

@@ -1,3 +1,24 @@
+/* ---------------------------------- Larger Devices (1112px wide and down) */
+@media (max-width: 1112px) {
+    
+    /* ------------------------------ index.html */
+    #welcome-msg {
+        margin-left: 450px;
+    }
+
+    .story-p {
+        font-size: 17px;
+    }
+
+    .recipes-p {
+        width: 80%;
+    }
+
+    .recipe-container {
+        width: 80%;
+    }
+}
+
 /* ---------------------------------- Larger Devices (1065px wide and down) */
 @media (max-width: 1065px) {
 
@@ -30,6 +51,10 @@
 
     .reviews-container {
         width: 85%;
+    }
+
+    .contact-us-container {
+        width: 60%;
     }
 
     /* ------------------------------ mullet-recipe.html */
