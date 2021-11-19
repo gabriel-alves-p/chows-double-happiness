@@ -46,18 +46,6 @@ ul {
     border: 0;
 }
 
-.navigation.hidden {
-    display: none;
-}
-
-.header.hide {
-    display: none;
-}
-
-.navigation-mobile.hide {
-    display: none;
-}
-
 /* ---------------------------------- Mobile Navigation Bar */
 .navigation-mobile {
     height: 80px;
@@ -66,13 +54,14 @@ ul {
     position: fixed;
     z-index: 1;
     border-bottom: 2px solid #c11734;
+    display: none;
 }
 
 .mobile-logo {
     background: url('../images/logo.jpg');
     height: 78px;
-    width: 80px;
-    margin-left: 20px;
+    width: auto;
+    margin-left: 40px;
 }
 
 .navigation-mobile ul {

@@ -325,6 +325,10 @@
     #intro {
         margin-top: 78px;
     }
+
+    .navigation-mobile {
+        display: unset;
+    }
     
     .navigation-mobile #icon {
         display: block;
@@ -352,6 +356,14 @@
 
     .navigation-mobile ul.show {
         left: 0;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    .header {
+        display: none;
     }
 
 }
