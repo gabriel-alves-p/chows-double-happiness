@@ -518,6 +518,8 @@
 
     .footer-instagram {
         transform: scale(0.8);
+        width: 70%;
+        margin: 0 auto;
     }
 
     #siteseal {
@@ -607,10 +609,6 @@
 
     .reviews-p {
         margin-bottom: 30px;
-    }
-
-    .footer-instagram {
-        width: 50%;
     }
 
     /* ------------------------------ mullet-recipe.html */
