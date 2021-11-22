@@ -561,16 +561,16 @@
     }
 }
 
-/* ---------------------------------- Medium Mobile Devices (375px wide and down) */
-@media (max-width: 375px) {
+/* ---------------------------------- Medium Mobile Devices (390px wide and down) */
+@media (max-width: 390px) {
 
     /* ------------------------------ index.html */
     #our-story {
-        height: 920px;
+        height: 940px;
     }
 
     .story-p {
-        height: 860px;
+        height: 880px;
     }
 
     .story-img {
@@ -599,6 +599,10 @@
 
     .review-quotes {
         margin-top: 33px;
+    }
+
+    .reviews-p {
+        margin-bottom: 30px;
     }
 
     .footer-instagram {
