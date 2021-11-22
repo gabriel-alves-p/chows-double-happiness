@@ -524,4 +524,38 @@
         width: 30%;
         left: 35%;
     }
+
+    /* ------------------------------ mullet-recipe.html */
+    .recipe-hero {
+        height: 1890px;
+    }
+
+    .recipe-container {
+        width: 100%;
+        height: 1800px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    #recipe-carousel {
+        width: 80%;
+        left: 10%;
+    }
+
+    /* ------------------------------ stirfry-recipe.html */
+    .stirfry-container {
+        height: 1500px;
+    }
+
+    .stirfry-page {
+        height: 1600px;
+    }
+
+    /* ------------------------------ bolognese-recipe.html */
+    .bolognese {
+        height: 2020px;
+    }
+
+    .bolognese-container {
+        height: 1920px;
+    }
 }
