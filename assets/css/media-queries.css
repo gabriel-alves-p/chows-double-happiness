@@ -149,8 +149,8 @@
     }
 }
 
-/* ---------------------------------- Medium Devices (768px wide and down) */
-@media (max-width: 768px) {
+/* ---------------------------------- Medium Devices (896px wide and down) */
+@media (max-width: 896px) {
     
     /* ------------------------------ index.html */
     h1 {
@@ -366,4 +366,160 @@
         display: none;
     }
 
+}
+
+/* ---------------------------------- Large Mobile Devices (425px wide and down) */
+@media (max-width: 425px) {
+
+    /* ------------------------------ index.html */
+    #welcome-msg {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-image {
+        height: 470px;
+    }
+
+    .story-p {
+        margin-top: 30px;
+        width: 100%;
+        left: 0;
+    }
+
+    .story-img {
+        top: 410px;
+        right: 10%;
+        width: 80%;
+        height: 200px;
+    }
+
+    #our-story {
+        height: 820px;
+    }
+
+    #find-us {
+        height: 1110px;
+    }
+
+    #locations {
+        margin-top: 30px;
+        width: 100%;
+        left: 0;
+        height: 1050px;
+    }
+
+    #google-map {
+        width: 80%;
+        margin-left: 43px;
+        height: 200px;
+    }
+
+    #locations a {
+        font-size: 17px;
+    }
+
+    #locations p {
+        font-size: 13px;
+    }
+
+    .location {
+        margin-bottom: 20px;
+    }
+
+    #recipes {
+        height: 1190px;
+    }
+
+    .recipes-p {
+        width: 100%;
+        height: 1160px;
+        margin-top: 30px;
+    }
+
+    .recipes-p p {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    #bol-carousel,
+    #bol-thumbnail,
+    #mullet-carousel,
+    #mullet-thumbnail,
+    #steak-carousel,
+    #steak-thumbnail,
+    #stirfry-carousel,
+    #stirfry-thumbnail {
+        height: 180px;
+        width: 80%;
+        left: 10%;
+    }
+
+    #mullet-carousel, #mullet-thumbnail {
+        margin-top: 0;
+    }
+
+    #steak-carousel, #steak-thumbnail {
+        margin-top: 220px;
+    }
+
+    #stirfry-carousel, #stirfry-thumbnail {
+        margin-bottom: 220px;
+    }
+
+    .thumbnail p {
+        margin-top: 150px;
+        font-size: 18px;
+    }
+
+    #reviews {
+        padding-top: 30px;
+        height: 850px;
+    }
+
+    .reviews-container {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        height: 790px;
+    }
+
+    .reviews-container p {
+        font-size: 15px;
+    }
+
+    #contact-us {
+        height: 260px;
+    }
+
+    .contact-us-container {
+        margin-top: 30px;
+        width: 95%;
+        height: 230px;
+    }
+
+    .contact-us-container h1 {
+        padding-top: 20px;
+    }
+
+    .contact-us-container p {
+        font-size: 15px;
+    }
+
+    .email {
+        font-size: 20px !important;
+    }
+
+    .footer-content {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .footer-instagram {
+        transform: scale(0.8);
+    }
+
+    #siteseal {
+        width: 30%;
+        left: 35%;
+    }
 }

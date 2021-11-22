@@ -16,11 +16,13 @@
 /* ---------------------------------- General Stylings / Overriding Bootstrap Styles */
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
     background-color: #1d1d1b;
     line-height: normal;
+    overflow-x: hidden;
 }
 
 * {
