@@ -229,13 +229,13 @@
     }
 
     #reviews {
-        height: 830px;
+        height: 850px;
         background-attachment: scroll;
     }
 
     .reviews-container {
         width: 90%;
-        height: 730px;
+        height: 750px;
     }
 
     .reviews-container p {
@@ -243,7 +243,7 @@
     }
 
     .review-quotes {
-        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
     .contact-us-container {
@@ -598,7 +598,11 @@
     }
 
     .review-quotes {
-        margin-top: 33px;
+        margin-bottom: 35px;
+    }
+
+    .quote-name {
+        padding-bottom: 0;
     }
 
     .reviews-p {
