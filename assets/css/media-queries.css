@@ -368,8 +368,8 @@
 
 }
 
-/* ---------------------------------- Large Mobile Devices (425px wide and down) */
-@media (max-width: 425px) {
+/* ---------------------------------- Large Mobile Devices (540px wide and down) */
+@media (max-width: 540px) {
 
     /* ------------------------------ index.html */
     #welcome-msg {
@@ -652,5 +652,95 @@
 
     .bolognese {
         height: 2020px;
+    }
+}
+
+/* ---------------------------------- Small Mobile Devices (320px wide and down) */
+@media (max-width: 320px) {
+
+    /* ------------------------------ index.html */
+    .story p {
+        font-size: 14px;
+    }
+
+    .story-img {
+        top: 430px;
+    }
+
+    .story-p {
+        height: 800px;
+    }
+
+    #our-story {
+        height: 870px;
+    }
+
+    #google-map {
+        margin-left: 30px;
+    }
+
+    .thumbnail p {
+        font-size: 15px;
+    }
+
+    #reviews {
+        height: 940px;
+    }
+
+    .reviews-container {
+        height: 880px;
+    }
+
+    .contact-us-container p {
+        font-size: 15px;
+    }
+
+    .email {
+        font-size: 17px !important;
+    }
+
+    #siteseal {
+        width: 40%;
+        left: 30%;
+    }
+
+    /* ------------------------------ mullet-recipe.html */
+    #recipe-carousel {
+        height: 170px;
+        top: 215px;
+    }
+
+    .ingredients {
+        padding-top: 190px;
+    }
+
+    .recipe-hero {
+        height: 2070px;
+    }
+
+    .recipe-container {
+        height: 1990px;
+    }
+
+    /* ------------------------------ stirfry-recipe.html */
+    .stirfry-container {
+        height: 1740px;
+    }
+
+    .stirfry-page {
+        height: 1840px;
+    }
+
+    /* ------------------------------ bolognese-recipe.html */
+    .bol-page-carousel {
+        top: 180px !important;
+    }
+
+    .bolognese {
+        height: 2190px;
+    }
+
+    .bolognese-container {
+        height: 2120px;
     }
 }
