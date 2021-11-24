@@ -229,13 +229,13 @@
     }
 
     #reviews {
-        height: 850px;
+        height: 890px;
         background-attachment: scroll;
     }
 
     .reviews-container {
         width: 90%;
-        height: 750px;
+        height: 790px;
     }
 
     .reviews-container p {
@@ -272,12 +272,12 @@
 
     /* ------------------------------ mullet-recipe.html */
     .recipe-hero {
-        height: 1560px;
+        height: 1580px;
     }
 
     .recipe-container {
         margin-top: 40px;
-        height: 1480px;
+        height: 1500px;
     }
 
     .ingredients {
@@ -296,20 +296,20 @@
 
     /* ------------------------------ stirfry-recipe.html */
     .stirfry-container {
-        height: 1380px;
+        height: 1400px;
     }
 
     .stirfry-page {
-        height: 1470px;
+        height: 1490px;
     }
 
     /* ------------------------------ bolognese-recipe.html */
     .bolognese {
-        height: 1690px;
+        height: 1720px;
     }
 
     .bolognese-container {
-        height: 1600px;
+        height: 1630px;
     }
 
     /* ------------------------------ 404.html */
