@@ -639,6 +639,10 @@
         height: 1190px;
     }
 
+    #reviews {
+        height: 880px;
+    }
+
     .review-quotes {
         margin-bottom: 35px;
     }
