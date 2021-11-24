@@ -22,7 +22,6 @@ html {
 body {
     background-color: #1d1d1b;
     line-height: normal;
-    overflow-x: hidden;
 }
 
 * {
@@ -162,6 +161,7 @@ ul {
 #navbar {
     font-family: Lobster, sans-serif;
     font-size: 22px;
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     background-color: rgba(0, 0, 0, .7);
@@ -691,6 +691,7 @@ footer {
     text-align: center;
     color: #ffffff;
     padding-top: 70px;
+    font-family: Comfortaa, sans-serif;
 }
 
 #siteseal {

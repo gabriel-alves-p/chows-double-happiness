@@ -563,6 +563,46 @@
     }
 }
 
+/* ---------------------------------- Medium Mobile Devices (414px wide and down) */
+@media (max-width: 414px) {
+    
+    /* ------------------------------ index.html */
+    #reviews {
+        height: 950px;
+    }
+
+    .reviews-container {
+        height: 890px;
+    }
+
+    /* ------------------------------ mullet-recipe.html */
+    .recipe-hero {
+        height: 1950px;
+    }
+
+    .recipe-container {
+        height: 1850px;
+    }
+
+    /* ------------------------------ bolognese-recipe.html */
+    .bolognese {
+        height: 2050px;
+    }
+
+    .bolognese-container {
+        height: 1970px;
+    }
+
+    /* ------------------------------ stirfry-recipe.html */
+    .stirfry-container {
+        height: 1600px;
+    }
+
+    .stirfry-page {
+        height: 1690px;
+    }
+}
+
 /* ---------------------------------- Medium Mobile Devices (390px wide and down) */
 @media (max-width: 390px) {
 
