@@ -329,10 +329,6 @@
     .navigation-mobile {
         display: unset;
     }
-    
-    .navigation-mobile #icon {
-        display: block;
-    }
 
     .navigation-mobile ul {
         width: 100%;
