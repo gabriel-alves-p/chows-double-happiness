@@ -403,45 +403,41 @@ ul {
 /* ----------------------------------  Our Story */
 #our-story {
     width: 100%;
-    height: 600px;
+    height: 700px;
+    position: relative;
 }
 
 .story {
-    width: 45%;
-    height: 500px;
-    background-color: rgba(0, 0, 0, .7);
-    border: 1px solid #000;
-    margin: 50px 0;
-    border-radius: 5%;
     position: absolute;
+    width: 50%;
 }
 
 .story-p {
-    left: 65px;
+    left: 0;
 }
 
 section h1 {
-    font-family: Lobster, sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: #ffffff;
-    margin: 20px 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: left;
+    color: #000;
+    margin: 80px 0 20px 90px;
 }
 
 .story-p p {
-    color: #ffffff;
-    font-family: Comfortaa, sans-serif;
-    font-size: 18px;
-    margin: 30px;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+    margin: 25px 0 20px 90px;
 }
 
 .story-img {
-    background: url('../images/jars.jpg') no-repeat center center;
+    background: url('../images/product.png') no-repeat center center;
     background-size: cover;
-    right: 65px;
-    height: 300px;
-    width: 40%;
-    margin-top: 150px;
+    right: 0;
+    height: 600px;
 }
 
 /* ---------------------------------- Where To Find Us */
