@@ -496,73 +496,35 @@ ul {
 /* ---------------------------------- Recipes (index.html) */
 #recipes {
     height: 900px;
+    position: relative;
 }
 
 .recipes-p {
-    height: 850px;
-    width: 70%;
-    background-color: rgba(0, 0, 0, .7);
-    border: 1px solid #000;
-    margin: 50px 0;
-    border-radius: 5%;
+    height: 800px;
+    width: 80%;
     margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
     position: relative;
 }
 
 .recipes-p p {
-    color: #ffffff;
-    font-family: Comfortaa, sans-serif;
-    font-size: 18px;
-    margin: 30px;
-}
-
-.carousel,
-.thumbnail {
-    height: 230px;
-    width: 350px;
-    position: absolute;
-    overflow: hidden;
-    border: 1px solid #c11734;
-}
-
-.thumbnail {
-    background-color: rgba(0, 0, 0, 0);
-}
-
-.thumbnail:hover {
-    background-color: rgba(0, 0, 0, .3)
-}
-
-.thumbnail p {
+    width: 60%;
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     font-size: 22px;
-    margin-top: 200px;
-    margin-left: 10px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-#steak-carousel,
-#steak-thumbnail {
-    right: 60px;
-    margin-top: 30px;
-}
-
-#stirfry-carousel,
-#stirfry-thumbnail {
-    right: 60px;
-    bottom: 60px;
-}
-
-#bol-carousel,
-#bol-thumbnail {
-    left: 60px;
-    bottom: 60px;
-}
-
-#mullet-carousel,
-#mullet-thumbnail {
-    left: 60px;
-    margin-top: 30px;
+.recipes-p h1 {
+    color: #000;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+    margin: 30px 0;
 }
 
 /* ---------------------------------- Recipes (recipe pages) */
