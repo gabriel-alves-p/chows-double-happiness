@@ -495,12 +495,12 @@ ul {
 
 /* ---------------------------------- Recipes (index.html) */
 #recipes {
-    height: 900px;
+    height: 980px;
     position: relative;
 }
 
 .recipes-p {
-    height: 800px;
+    height: 250px;
     width: 80%;
     margin: 0 auto;
     position: relative;
@@ -525,6 +525,69 @@ ul {
     font-size: 26px;
     text-align: center;
     margin: 30px 0;
+}
+
+.recipe,
+.thumbnail {
+    height: 300px;
+    width: 525px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.thumbnail:hover {
+    background-color: rgba(0, 0, 0, .3);
+    color: #fff;
+}
+
+.thumbnail p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+#recipe-mullet {
+    background: url('../images/mullet1.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+#recipe-steak {
+    background: url('../images/steak1.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+#recipe-bol {
+    background: url('../images/bolognaise1.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+#recipe-stirfry {
+    background: url('../images/stirfry2.jpg')no-repeat center center;
+    background-size: cover;
+}
+
+#recipe-mullet,
+#mullet-thumbnail {
+    left: 85px;
+}
+
+#recipe-steak,
+#steak-thumbnail {
+    right: 85px;
+}
+
+#recipe-bol,
+#bol-thumbnail {
+    left: 85px;
+    bottom: 50px;
+}
+
+#recipe-stirfry,
+#stirfry-thumbnail {
+    right: 85px;
+    bottom: 50px;
 }
 
 /* ---------------------------------- Recipes (recipe pages) */
