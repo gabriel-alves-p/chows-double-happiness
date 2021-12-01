@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Pacifico&display=swap');
 
 /* ---------------------------------- Code Credit to https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load/12638711#12638711 */
 @keyframes slideInFromLeft {
@@ -730,25 +730,43 @@ ul {
 
 /* ---------------------------------- Footer */
 footer {
-    height: 150px;
+    background: url('../images/header-pattern.png') no-repeat center center;
+    background-size: cover;
+    height: 250px;
     width: 100%;
-    background-color: #000;
     position: relative;
 }
 
-.footer-content {
-    width: 30%;
-    margin: 0 auto;
+.instagram-msg {
+    font-family: Pacifico, sans-serif;
+    font-size: 28px;
     text-align: center;
-    color: #ffffff;
-    padding-top: 70px;
-    font-family: Comfortaa, sans-serif;
+    color: #c11734;
+    padding-top: 30px;
+}
+
+.instagram-msg p {
+    margin: 0;
+}
+
+.instagram-icon {
+    text-align: center;
+    color: #000;
+    font-size: 38px;
+}
+
+.footer-cright {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 50px;
 }
 
 #siteseal {
     position: absolute;
     right: 30px;
-    top: 60px;
+    bottom: 30px;
 }
 
 /* ---------------------------------- 404 Page */
