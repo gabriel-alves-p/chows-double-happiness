@@ -495,7 +495,7 @@ ul {
 
 /* ---------------------------------- Recipes (index.html) */
 #recipes {
-    height: 980px;
+    height: 960px;
     position: relative;
 }
 
@@ -549,22 +549,22 @@ ul {
 }
 
 #recipe-mullet {
-    background: url('../images/mullet1.jpg')no-repeat center center;
+    background: url('../images/mullet1-small.jpg')no-repeat center center;
     background-size: cover;
 }
 
 #recipe-steak {
-    background: url('../images/steak1.jpg')no-repeat center center;
+    background: url('../images/steak1-small.jpg')no-repeat center center;
     background-size: cover;
 }
 
 #recipe-bol {
-    background: url('../images/bolognaise1.jpg')no-repeat center center;
+    background: url('../images/bolognaise1-small.jpg')no-repeat center center;
     background-size: cover;
 }
 
 #recipe-stirfry {
-    background: url('../images/stirfry2.jpg')no-repeat center center;
+    background: url('../images/stirfry2-small.jpg')no-repeat center center;
     background-size: cover;
 }
 
@@ -653,48 +653,37 @@ ul {
 
 /* ---------------------------------- Reviews */
 #reviews {
-    height: 950px;
+    height: 420px;
     width: 100%;
-    background: url('../images/reviews-bg.jpg') no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
-    z-index: -1;
+    background-color: #1d1d1b;
+    color: #fff;
+}
+
+#reviews h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
     padding-top: 50px;
 }
 
-.reviews-container {
-    width: 70%;
-    height: 850px;
+.review {
+    width: 60%;
+    height: 300px;
     margin: 0 auto;
-    background-color: rgba(0, 0, 0, .8);
-    border-radius: 5%;
-}
-
-.reviews-container h1 {
-    padding-top: 20px;
-    margin-top: 0;
-}
-
-.reviews-container p {
-    font-family: Comfortaa, sans-serif;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
     font-size: 20px;
-    color: #ffffff;
-}
-
-.reviews-p {
     text-align: center;
-    margin-bottom: 50px;
 }
 
-.review-quotes {
-    text-align: left;
-    margin: 10px 20px 55px 20px;
+.quote {
+    padding-top: 50px;
 }
 
-.quote-name {
-    text-align: left;
-    margin: 0;
-    padding: 0 0 10px 20px;
+.carousel {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* ---------------------------------- Contact Us */
