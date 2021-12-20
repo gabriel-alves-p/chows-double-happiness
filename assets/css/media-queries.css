@@ -1,78 +1,44 @@
-/* ---------------------------------- Desktop Devices (1112px wide and down) */
-@media (max-width: 1112px) {
-    
+/* ---------------------------------- Desktop Devices (1024px wide and down) */
+@media (max-width: 1024px) {
+
     /* ------------------------------ index.html */
     #welcome-msg {
-        margin-left: 450px;
+        right: 0;
     }
 
-    .story-p {
-        font-size: 17px;
+    #recipes {
+        height: 860px;
     }
 
     .recipes-p {
-        width: 80%;
+        width: 100%;
     }
 
-    .recipe-container {
-        width: 80%;
-    }
-}
-
-/* ---------------------------------- Desktop/Large Tablet Devices (1065px wide and down) */
-@media (max-width: 1065px) {
-
-    /* ------------------------------ index.html */
-    #navbar li {
-        font-size: 20px;
+    .recipe,
+    .thumbnail {
+        transform: scale(0.8);
     }
 
-    .hero-image {
-        height: 480px;
+    #recipe-mullet,
+    #mullet-thumbnail {
+        left: 30px;
     }
 
-    #welcome-msg {
-        margin-left: 400px;
-        width: 500px;
+    #recipe-steak,
+    #steak-thumbnail {
+        right: 30px;
     }
 
-    #welcome-msg p {
-        margin: 20px;
-        font-size: 18px;
+    #recipe-bol,
+    #bol-thumbnail {
+        left: 30px;
+        bottom: 50px;
     }
 
-    .story p {
-        font-size: 16px;
-    }
-
-    .recipes-p {
-        width: 83%;
-    }
-
-    .reviews-container {
-        width: 85%;
-    }
-
-    .contact-us-container {
-        width: 60%;
-    }
-
-    /* ------------------------------ mullet-recipe.html */
-    .recipe-hero {
-        height: 1220px;
-    }
-
-    .recipe-container {
-        width: 88%;
-    }
-
-    /* ------------------------------ bolognese-recipe.html */
-    .bolognese {
-        height: 1400px;
-    }
-
-    .bolognese-container {
-        width: 90%;
+    #recipe-stirfry,
+    #stirfry-thumbnail {
+        right: 30px;
+        bottom: 50px;
     }
 }
 
@@ -80,248 +46,51 @@
 @media (max-width: 968px) {
 
     /* ------------------------------ index.html */
-    .navigation-mobile ul {
-        margin-right: 20px;
-    }
-
-    .navigation-mobile a {
-        font-size: 17px;
+    .story-p h1 {
+        margin: 80px 0 30px 40px;
     }
     
-    #navbar {
-        height: 60px;
+    .story-p p {
+        margin: 0 0 30px 40px;
     }
 
-    #navbar li {
-        font-size: 16px;
-        line-height: normal;
-        padding-top: 20px;
+    #recipe-mullet,
+    #mullet-thumbnail {
+        left: 0;
     }
 
-    .story-img {
-        right: 30px;
+    #recipe-steak,
+    #steak-thumbnail {
+        right: 0;
     }
 
-    .story-p {
-        left: 30px;
-        width: 500px;
+    #recipe-bol,
+    #bol-thumbnail {
+        left: 0;
+        bottom: 50px;
     }
 
-    #locations {
-        width: 85%;
-        left: 7.5%;
-    }
-
-    #recipes {
-        height: 860px;
-    }
-
-    .recipes-p {
-        width: 85%;
-        height: 800px;
-    }
-
-    #bol-carousel,
-    #bol-thumbnail,
-    #mullet-carousel,
-    #mullet-thumbnail,
-    #steak-carousel,
-    #steak-thumbnail,
-    #stirfry-carousel,
+    #recipe-stirfry,
     #stirfry-thumbnail {
-        height: 200px;
-        width: 320px;
+        right: 0;
+        bottom: 50px;
     }
 
-    .thumbnail p {
-        font-size: 20px;
-        margin-top: 160px;    
-    }
-
-    .contact-us-container {
-        width: 60%;
-    }
-
-    /* ------------------------------ mullet-recipe.html */
-    #recipe-carousel {
-        width: 370px;
-        height: 230px;
+    .quote {
+        font-size: 18px;
     }
 }
 
 /* ---------------------------------- Medium Tablet Devices (896px wide and down) */
 @media (max-width: 896px) {
-    
+
     /* ------------------------------ index.html */
-    h1 {
-        font-size: 35px !important;
-    }
 
-    .instagram-msg {
-        font-size: 13px;
-    }
-
-    .hero-image {
-        background-attachment: scroll;
-    }
-
-    #welcome-msg {
-        margin: 0 auto;
-        margin-top: 35px;
-    }
-
-    #navbar li {
-        width: 16.5%;
-        margin: 0 auto;
-        font-size: 14px;
-    }
-
-    #our-story {
-        height: 860px;
-        position: relative;
-    }
-
-    .story-p {
-        width: 90%;
-        left: 5%;
-        height: 760px;
-    }
-
-    .story-img {
-        width: 70%;
-        right: 15%;
-        top: 310px;
-    }
-
-    #find-us {
-        background-attachment: scroll;
-    }
-
-    #locations {
-        width: 90%;
-        left: 5%;
-    }
-
-    #recipes {
-        height: 720px;
-    }
-
-    .recipes-p {
-        width: 90%;
-        height: 660px;
-    }
-
-    #bol-carousel,
-    #bol-thumbnail,
-    #mullet-carousel,
-    #mullet-thumbnail,
-    #steak-carousel,
-    #steak-thumbnail,
-    #stirfry-carousel,
-    #stirfry-thumbnail {
-        height: 150px;
-        width: 270px;
-    }
-
-    .thumbnail p {
-        font-size: 16px;
-        margin-top: 120px;    
-    }
-
-    #reviews {
-        height: 890px;
-        background-attachment: scroll;
-    }
-
-    .reviews-container {
-        width: 90%;
-        height: 790px;
-    }
-
-    .reviews-container p {
-        font-size: 18px;
-    }
-
-    .review-quotes {
-        margin-bottom: 40px;
-    }
-
-    .contact-us-container {
-        width: 80%;
-    }
-
-    footer {
-        height: 250px;
-    }
-
-    .footer-instagram {
-        width: 40%;
-        margin: 0 auto;
-        position: relative;
-    }
-
-    #siteseal {
-        left: 41.25%;
-        top: 105px;
-    }
-
-    .footer-content {
-        width: 40%;
-        padding-top: 180px;
-    }
-
-    /* ------------------------------ mullet-recipe.html */
-    .recipe-hero {
-        height: 1580px;
-    }
-
-    .recipe-container {
-        margin-top: 40px;
-        height: 1500px;
-    }
-
-    .ingredients {
-        padding-top: 260px;
-    }
-
-    #recipe-carousel {
-        top: 185px;
-        right: 150px;
-    }
-
-    /* ------------------------------ steak-recipe.html */
-    .steak-carousel-large {
-        top: 220px !important;
-    }
-
-    /* ------------------------------ stirfry-recipe.html */
-    .stirfry-container {
-        height: 1400px;
-    }
-
-    .stirfry-page {
-        height: 1490px;
-    }
-
-    /* ------------------------------ bolognese-recipe.html */
-    .bolognese {
-        height: 1720px;
-    }
-
-    .bolognese-container {
-        height: 1630px;
-    }
-
-    /* ------------------------------ 404.html */
-    .page-404 {
-        height: 300px !important;
-        padding-top: 0 !important;
-    }
 }
 
 /* ---------------------------------- Tablet Devices (767px wide and down) */
 @media (max-width: 767px) {
-    
+
     #intro {
         margin-top: 78px;
     }
@@ -361,7 +130,6 @@
     .header {
         display: none;
     }
-
 }
 
 /* ---------------------------------- Large Mobile Devices (540px wide and down) */
@@ -453,15 +221,18 @@
         left: 10%;
     }
 
-    #mullet-carousel, #mullet-thumbnail {
+    #mullet-carousel,
+    #mullet-thumbnail {
         margin-top: 0;
     }
 
-    #steak-carousel, #steak-thumbnail {
+    #steak-carousel,
+    #steak-thumbnail {
         margin-top: 220px;
     }
 
-    #stirfry-carousel, #stirfry-thumbnail {
+    #stirfry-carousel,
+    #stirfry-thumbnail {
         margin-bottom: 220px;
     }
 
@@ -561,7 +332,7 @@
 
 /* ---------------------------------- Medium Mobile Devices (414px wide and down) */
 @media (max-width: 414px) {
-    
+
     /* ------------------------------ index.html */
     #reviews {
         height: 950px;
