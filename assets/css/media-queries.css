@@ -117,8 +117,8 @@
     }
 }
 
-/* ---------------------------------- Medium Tablet Devices (768px wide and down) */
-@media (max-width: 768px) {
+/* ---------------------------------- Medium Tablet Devices (823px wide and down) */
+@media (max-width: 823px) {
     
     /* ------------------------------ index.html */
     .logo {
@@ -185,19 +185,27 @@
 }
 
 /* ---------------------------------- Tablet Devices (767px wide and down) */
-@media (max-width: 767px) {
+@media (max-width: 736px) {
 
     /* ------------------------------ index.html */
+    #navbar {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .navigation-mobile {
+        display: unset;
+    }
+
     #intro {
         padding-top: 80px;
     }
 
     #welcome-msg {
         padding-top: 80px;
-    }
-
-    .navigation-mobile {
-        display: unset;
     }
 
     .navigation-mobile ul {
@@ -224,15 +232,6 @@
     .navigation-mobile ul.show {
         left: 0;
     }
-
-    #navbar {
-        display: none;
-    }
-
-    .header {
-        display: none;
-    }
-   
 }
 
 /* ---------------------------------- Large Mobile Devices (540px wide and down) */

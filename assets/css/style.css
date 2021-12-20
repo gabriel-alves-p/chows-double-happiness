@@ -60,13 +60,16 @@ ul {
 .mobile-logo {
     height: 50px;
     width: auto;
-    padding-left: 10px;
+    position: fixed;
+    left: 60px;
+    top: 15px;
 }
 
 .mobile-dh-symbol {
-    height: 70px;
+    height: 60px;
     width: auto;
-    padding-top: 5px;
+    position: fixed;
+    top: 10px;
 }
 
 .navigation-mobile ul {
