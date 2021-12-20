@@ -184,7 +184,7 @@
     }
 }
 
-/* ---------------------------------- Tablet Devices (767px wide and down) */
+/* ---------------------------------- Tablet Devices (736px wide and down) */
 @media (max-width: 736px) {
 
     /* ------------------------------ index.html */
@@ -202,10 +202,19 @@
 
     #intro {
         padding-top: 80px;
+        height: 500px;
     }
 
     #welcome-msg {
-        padding-top: 80px;
+        padding-top: 60px;
+    }
+
+    #welcome-msg h1 {
+        font-size: 22px;
+    }
+
+    #welcome-msg p {
+        font-size: 18px;
     }
 
     .navigation-mobile ul {
@@ -231,6 +240,47 @@
 
     .navigation-mobile ul.show {
         left: 0;
+    }
+
+    #recipes {
+        height: 700px;
+    }
+
+    .recipes-p p {
+        width: 80%;
+    }
+
+    .recipe,
+    .thumbnail {
+        transform: scale(0.6);
+    }
+
+    #recipe-mullet,
+    #mullet-thumbnail {
+        left: -60px;
+        top: 200px;
+    }
+
+    #recipe-steak,
+    #steak-thumbnail {
+        right: -60px;
+        top: 200px;
+    }
+
+    #recipe-bol,
+    #bol-thumbnail {
+        left: -60px;
+        bottom: 0;
+    }
+
+    #recipe-stirfry,
+    #stirfry-thumbnail {
+        right: -60px;
+        bottom: 0;
+    }
+
+    .contact-us-container {
+        width: 100%;
     }
 }
 
