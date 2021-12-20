@@ -301,6 +301,10 @@
     .contact-us-container {
         width: 90%;
     }
+
+    #email {
+        font-size: 22px;
+    }
 }
 
 /* ---------------------------------- Large Mobile Devices (540px wide and down) */
@@ -476,16 +480,106 @@
     }
 }
 
-/* ---------------------------------- Medium Mobile Devices (390px wide and down) */
-@media (max-width: 390px) {
+/* ---------------------------------- Medium Mobile Devices (402px wide and down) */
+@media (max-width: 402px) {
 
     /* ------------------------------ index.html */
-    
+    #our-story {
+        height: 1050px;
+    }
+
+    .story-img {
+        top: 580px;
+    }
+
+    #find-us {
+        height: 1150px;
+    }
+
+    #google-map {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    #locations {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    #reviews {
+        height: 480px;
+    }
+
+    .recipes-p p {
+        width: 95%;
+    }
+
+    .carousel {
+        height: 380px;
+    }
+
+    .quote {
+        font-size: 16px;
+    }
 }
 
-/* ---------------------------------- Small Mobile Devices (320px wide and down) */
+/* ---------------------------------- Small Mobile Devices (375px wide and down) */
+@media (max-width: 375px) {
+
+    /* ------------------------------ index.html */
+    .mobile-logo {
+        height: 35px;
+        top: 25px;
+    }
+
+    #welcome-msg {
+        padding-top: 40px;
+    }
+
+    #our-story {
+        height: 1100px;
+    }
+
+    .story-img {
+        top: 630px;
+    }
+
+    #google-map {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    #locations {
+        width: 95%;
+        left: 2.5%;
+    }
+}
+
+/* ---------------------------------- Extra Small Mobile Devices (320px wide and down) */
 @media (max-width: 320px) {
 
     /* ------------------------------ index.html */
-    
+    #our-story {
+        height: 1200px;
+    }
+
+    .story-img {
+        top: 730px;
+    }
+
+    #find-us {
+        height: 1250px;
+    }
+
+    .thumbnail p {
+        font-size: 20px;
+    }
+
+    .quote {
+        font-size: 15px;
+    }
+
+    #email {
+        font-size: 19px;
+    }
 }
