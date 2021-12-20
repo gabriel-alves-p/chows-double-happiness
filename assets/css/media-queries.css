@@ -117,6 +117,73 @@
     }
 }
 
+/* ---------------------------------- Medium Tablet Devices (768px wide and down) */
+@media (max-width: 768px) {
+    
+    /* ------------------------------ index.html */
+    .logo {
+        left: 20px;
+    }
+
+    .dh-symbol {
+        right: 20px;
+    }
+
+    #navbar {
+        font-size: 18px;
+    }
+
+    #welcome-msg {
+        top: 40px;
+        width: 55%;
+    }
+
+    .story-img {
+        width: 40%;
+        height: 500px;
+        margin-top: 100px;
+    }
+
+    .story-p {
+        width: 60%;
+    }
+
+    #recipes {
+        height: 840px;
+    }
+
+    .recipe,
+    .thumbnail {
+        transform: scale(0.65);
+    }
+
+    #recipe-mullet,
+    #mullet-thumbnail {
+        left: -60px;
+    }
+
+    #recipe-steak,
+    #steak-thumbnail {
+        right: -60px;
+    }
+
+    #recipe-bol,
+    #bol-thumbnail {
+        left: -60px;
+        bottom: 50px;
+    }
+
+    #recipe-stirfry,
+    #stirfry-thumbnail {
+        right: -60px;
+        bottom: 50px;
+    }
+
+    .contact-us-container {
+        width: 50%;
+    }
+}
+
 /* ---------------------------------- Tablet Devices (767px wide and down) */
 @media (max-width: 767px) {
 
