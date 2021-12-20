@@ -85,7 +85,36 @@
 @media (max-width: 896px) {
 
     /* ------------------------------ index.html */
+    #our-story {
+        height: 750px;
+    }
 
+    .recipe,
+    .thumbnail {
+        transform: scale(0.7);
+    }
+
+    #recipe-mullet,
+    #mullet-thumbnail {
+        left: -20px;
+    }
+
+    #recipe-steak,
+    #steak-thumbnail {
+        right: -20px;
+    }
+
+    #recipe-bol,
+    #bol-thumbnail {
+        left: -20px;
+        bottom: 50px;
+    }
+
+    #recipe-stirfry,
+    #stirfry-thumbnail {
+        right: -20px;
+        bottom: 50px;
+    }
 }
 
 /* ---------------------------------- Tablet Devices (767px wide and down) */
