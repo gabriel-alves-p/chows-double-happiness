@@ -307,7 +307,96 @@
 @media (max-width: 540px) {
 
     /* ------------------------------ index.html */
+    #welcome-msg {
+        width: 70%;
+        left: 30%;
+        padding-top: 40px;
+    }
     
+    #our-story {
+        height: 1000px;
+    }
+    
+    .story {
+        display: block;
+        width: 100%;
+    }
+
+    .story-p p {
+        margin-right: 40px;
+    }
+
+    .story-img {
+        top: 530px;
+        z-index: -1;
+        margin-top: 0;
+    }
+
+    #find-us {
+        height: 1160px;
+    }
+
+    #locations {
+        height: auto;
+        width: 80%;
+        left: 10%;
+    }
+
+    #google-map {
+        width: 80%;
+        left: 10%;
+        height: 250px;
+        top: 120px;
+    }
+
+    #locations h1 {
+        padding-bottom: 300px;
+    }
+
+    #recipes {
+        height: 1350px;
+    }
+
+    .recipe,
+    .thumbnail {
+        transform: scale(1);
+        height: 240px;
+        width: 75%;
+        left: 12.5% !important; 
+    }
+
+    .thumbnail p {
+        margin-top: 190px;
+    }
+
+    #recipe-mullet,
+    #mullet-thumbnail {
+        top: 250px;
+    }
+
+    #recipe-steak,
+    #steak-thumbnail {
+        top: 520px;
+    }
+
+    #recipe-bol,
+    #bol-thumbnail {
+        top: 790px;
+    }
+
+    #recipe-stirfry,
+    #stirfry-thumbnail {
+        top: 1060px;
+    }
+
+    .carousel {
+        width: 100%;
+    }
+
+    #siteseal {
+        bottom: 5px;
+        right: 5px;
+    }
 }
 
 /* ---------------------------------- Medium Mobile Devices (414px wide and down) */
