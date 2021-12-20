@@ -474,6 +474,10 @@
         height: 350px;
     }
 
+    footer {
+        height: 280px;
+    }
+
     #siteseal {
         bottom: 5px;
         right: 5px;
@@ -485,15 +489,15 @@
 
     /* ------------------------------ index.html */
     #our-story {
-        height: 1050px;
+        height: 1100px;
     }
 
     .story-img {
-        top: 580px;
+        top: 630px;
     }
 
     #find-us {
-        height: 1150px;
+        height: 1200px;
     }
 
     #google-map {
@@ -537,11 +541,11 @@
     }
 
     #our-story {
-        height: 1100px;
+        height: 1150px;
     }
 
     .story-img {
-        top: 630px;
+        top: 680px;
     }
 
     #google-map {
