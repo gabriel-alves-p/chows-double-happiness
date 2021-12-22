@@ -203,6 +203,7 @@
 
     .navigation-mobile {
         display: unset;
+        z-index: 1;
     }
 
     #intro {
@@ -230,6 +231,7 @@
         left: -100%;
         text-align: center;
         transition: all .5s;
+        z-index: 1;
     }
 
     .navigation-mobile li {
@@ -361,6 +363,7 @@
         left: 10%;
         height: 250px;
         top: 120px;
+        z-index: 1;
     }
 
     #locations h1 {
