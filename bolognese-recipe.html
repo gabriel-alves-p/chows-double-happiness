@@ -21,11 +21,13 @@
 
 <body>
     <!-- Mobile Navigation -->
-    <nav class="navigation-mobile hide">
-        <a href="index.html"><img src="assets/images/mobile-logo.jpg" alt="mobile-logo" class="mobile-logo"></a>
+    <nav class="navigation-mobile">
+        <a href="#intro"><img src="assets/images/dh-symbol.png" alt="double happiness logo"
+                class="mobile-dh-symbol"><img src="assets/images/new-logo.png" alt="mobile-logo"
+                class="mobile-logo"></a>
         <ul class="mobile-ul">
             <li class="mobile-li">
-                <a href="index.html#home" class="hvr-icon-fade hvr-icon-wobble-vertical">Home <i
+                <a href="index.html" class="hvr-icon-fade hvr-icon-wobble-vertical">Home <i
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li class="mobile-li">
@@ -33,7 +35,7 @@
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li class="mobile-li">
-                <a href="index.html#find-us" class="hvr-icon-fade hvr-icon-wobble-vertical">Find Us <i
+                <a href="index.html#find-us" class="hvr-icon-fade hvr-icon-wobble-vertical">Stockists <i
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li class="mobile-li">
@@ -41,7 +43,7 @@
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li class="mobile-li">
-                <a href="index.html#reviews" class="hvr-icon-fade hvr-icon-wobble-vertical">What Others Say <i
+                <a href="index.html#reviews" class="hvr-icon-fade hvr-icon-wobble-vertical">Reviews <i
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li class="mobile-li">
@@ -59,29 +61,15 @@
         </div>
     </nav>
     <!-- Header -->
-    <header class="header">
-        <!-- Instagram Bits -->
-        <div class="instagram-icon">
-            <a href="https://www.instagram.com/chowsdoublehappiness/" target="_blank"
-                class="hvr-icon-rotate hvr-icon-fade">
-                <i class="fab fa-instagram hvr-icon"></i>
-            </a>
-        </div>
-        <div class="instagram-msg">
-            <p>Follow us on Instagram!</p>
-        </div>
-        <!-- Logo -->
-        <a href="index.html" class="logo">
-            <img src="assets/images/logo.jpg" alt="logo" class="logo">
-        </a>
+    <header class="header" id="home">
+        <img src="assets/images/new-logo.png" alt="logo" class="logo">
+        <img src="assets/images/dh-symbol.png" alt="double happiness logo" class="dh-symbol">
     </header>
-    <!-- Divider -->
-    <div class="divider" id="home"></div>
     <!-- Navigation bar -->
     <nav id="navbar" class="navigation">
         <ul>
             <li>
-                <a href="index.html#home" class="hvr-icon-fade hvr-icon-wobble-vertical">Home <i
+                <a href="index.html" class="hvr-icon-fade hvr-icon-wobble-vertical">Home <i
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li>
@@ -89,7 +77,7 @@
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li>
-                <a href="index.html#find-us" class="hvr-icon-fade hvr-icon-wobble-vertical">Find Us <i
+                <a href="index.html#find-us" class="hvr-icon-fade hvr-icon-wobble-vertical">Stockists <i
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li>
@@ -97,7 +85,7 @@
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li>
-                <a href="index.html#reviews" class="hvr-icon-fade hvr-icon-wobble-vertical">What Others Say <i
+                <a href="index.html#reviews" class="hvr-icon-fade hvr-icon-wobble-vertical">Reviews <i
                         class="fas fa-pepper-hot hvr-icon"></i></a>
             </li>
             <li>
@@ -107,12 +95,12 @@
         </ul>
     </nav>
     <!-- Hero Image -->
-    <section id="intro" class="hero-image recipe-hero bolognese">
+    <section class="recipe-hero bolognese">
         <div class="recipe-container bolognese-container">
-            <h1>Spaghetti Bolognese</h1>
+            <h1 class="recipe-title">Spaghetti Bolognese</h1>
             <div class="recipe-info">
-                <p><i class="fas fa-concierge-bell"></i> Serves: 2 adults</p>
-                <p><i class="fas fa-hourglass-half"></i> Cooking time: 1 hour 30 minutes</p>
+                <p>Serves: 2 adults</p>
+                <p>Cooking time: 1 hour 30 minutes</p>
             </div>
             <div id="recipe-carousel" class="carousel slide bol-page-carousel" data-ride="carousel">
                 <div class="carousel-inner">
@@ -193,22 +181,18 @@
             </div>
         </div>
     </section>
-    <!-- Divider -->
-    <div class="divider"></div>
     <!-- Footer -->
     <footer>
-        <div class="footer-instagram">
-            <div class="instagram-icon">
-                <a href="https://www.instagram.com/chowsdoublehappiness/" target="_blank"
-                    class="hvr-icon-rotate hvr-icon-fade">
-                    <i class="fab fa-instagram hvr-icon"></i>
-                </a>
-            </div>
-            <div class="instagram-msg">
-                <p>Follow us on Instagram!</p>
-            </div>
+        <div class="instagram-msg">
+            <p>Share The Happiness</p>
         </div>
-        <div class="footer-content">
+        <div class="instagram-icon">
+            <a href="https://www.instagram.com/chowsdoublehappiness/" target="_blank"
+                class="hvr-icon-rotate hvr-icon-fade instagram-icon">
+                <i class="fab fa-instagram-square hvr-icon"></i>
+            </a>
+        </div>
+        <div class="footer-cright">
             <p>© 2021 Chow's Double Happiness</p>
         </div>
         <span id="siteseal">
