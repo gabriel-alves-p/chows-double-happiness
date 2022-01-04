@@ -191,7 +191,7 @@ ul {
     background-size: cover;
     width: 100%;
     height: 700px;
-    z-index: -1;
+    z-index: 0;
     display: flex;
     position: relative;
 }
@@ -492,6 +492,10 @@ ul {
     font-size: 17px;
     width: 100%;
     border-bottom: 1px solid #fff;
+}
+
+.last-location-p {
+    border-bottom: 0 !important;
 }
 
 .location {

@@ -447,7 +447,7 @@
         left: 10%;
         height: 250px;
         top: 120px;
-        z-index: 1;
+        z-index: 0;
     }
 
     #locations h1 {
@@ -559,8 +559,8 @@
     }
 }
 
-/* ---------------------------------- Medium Mobile Devices (425px wide and down) */
-@media (max-width: 425px) {
+/* ---------------------------------- Medium Mobile Devices (430px wide and down) */
+@media (max-width: 430px) {
 
     /* ------------------------------ index.html */
     .mobile-logo {
@@ -583,6 +583,10 @@
         left: 5%;
     }
 
+    #our-story {
+        height: 1100px;
+    }
+
     .story-p h1 {
         margin-left: 20px;
     }
@@ -592,11 +596,21 @@
     }
 
     .story-img {
-        top: 540px;
+        top: 640px;
     }
 
     #find-us {
         height: 1200px;
+    }
+
+    #google-map {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    #locations {
+        width: 95%;
+        left: 2.5%;
     }
 
     .recipes-p p {
@@ -692,6 +706,10 @@
 @media (max-width: 402px) {
 
     /* ------------------------------ index.html */
+    #intro {
+        height: 650px;
+    }
+    
     #our-story {
         height: 1100px;
     }
@@ -700,26 +718,18 @@
         top: 630px;
     }
 
-    #find-us {
-        height: 1200px;
-    }
-
-    #google-map {
-        width: 95%;
-        left: 2.5%;
-    }
-
-    #locations {
-        width: 95%;
-        left: 2.5%;
-    }
-
     #reviews {
         height: 480px;
     }
 
     .recipes-p p {
         width: 95%;
+    }
+
+    .thumbnail p {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0;
     }
 
     .carousel {
@@ -743,40 +753,7 @@
     .recipe-info {
         margin-bottom: 270px;
     }
-}
 
-/* ---------------------------------- Small Mobile Devices (375px wide and down) */
-@media (max-width: 375px) {
-
-    /* ------------------------------ index.html */
-    .mobile-logo {
-        height: 35px;
-        top: 25px;
-    }
-
-    #welcome-msg {
-        padding-top: 40px;
-    }
-
-    #our-story {
-        height: 1150px;
-    }
-
-    .story-img {
-        top: 680px;
-    }
-
-    #google-map {
-        width: 95%;
-        left: 2.5%;
-    }
-
-    #locations {
-        width: 95%;
-        left: 2.5%;
-    }
-
-    /* ------------------------------ mullet-recipe.html */
     .recipe-hero {
         height: 2100px;
     }
@@ -810,6 +787,38 @@
 
     .stirfry-container {
         height: 1700px;
+    }
+}
+
+/* ---------------------------------- Small Mobile Devices (375px wide and down) */
+@media (max-width: 375px) {
+
+    /* ------------------------------ index.html */
+    .mobile-logo {
+        height: 35px;
+        top: 25px;
+    }
+
+    #welcome-msg {
+        padding-top: 40px;
+    }
+
+    #our-story {
+        height: 1150px;
+    }
+
+    .story-img {
+        top: 680px;
+    }
+
+    #google-map {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    #locations {
+        width: 95%;
+        left: 2.5%;
     }
 }
 
