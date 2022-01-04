@@ -528,7 +528,7 @@
     }
 
     /* ------------------------------ steak-recipe.html */
-    .steak-container > #recipe-carousel {
+    .steak-container>#recipe-carousel {
         top: 240px;
     }
 
@@ -657,6 +657,12 @@
         font-size: 22px;
     }
 
+    .steps,
+    .ingredients,
+    .recipe-info {
+        margin: 0 20px 30px 30px;
+    }
+
     .recipe-info {
         margin-bottom: 250px;
     }
@@ -709,7 +715,7 @@
     #intro {
         height: 650px;
     }
-    
+
     #our-story {
         height: 1100px;
     }
@@ -854,7 +860,7 @@
     #recipe-carousel {
         top: 250px;
     }
-    
+
     .recipe-hero {
         height: 2350px;
     }
