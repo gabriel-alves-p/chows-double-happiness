@@ -253,7 +253,6 @@
 
     .navigation-mobile {
         display: unset;
-        z-index: 1;
     }
 
     #intro {
@@ -447,7 +446,6 @@
         left: 10%;
         height: 250px;
         top: 120px;
-        z-index: 0;
     }
 
     #locations h1 {
