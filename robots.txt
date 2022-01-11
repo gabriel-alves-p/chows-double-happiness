@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://chowsdoublehappiness.co.uk/sitemap.xml
