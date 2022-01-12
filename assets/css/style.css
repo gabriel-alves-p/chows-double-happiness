@@ -224,6 +224,10 @@ ul {
     text-decoration: none;
 }
 
+#navbar li:first-child a {
+    padding-left: 35px;
+}
+
 #navbar a:hover {
     color: #c11734;
     text-decoration: none;
