@@ -134,10 +134,6 @@
         height: 750px;
     }
 
-    #find-us {
-        height: 1050px;
-    }
-
     .recipe,
     .thumbnail {
         transform: scale(0.7);
@@ -475,7 +471,7 @@
     }
 
     #find-us {
-        height: 1350px;
+        height: 1400px;
     }
 
     #locations {
@@ -855,6 +851,10 @@
         top: 680px;
     }
 
+    #find-us {
+        height: 1450px;
+    }
+
     #google-map {
         width: 95%;
         left: 2.5%;
@@ -879,7 +879,7 @@
     }
 
     #find-us {
-        height: 1460px;
+        height: 1500px;
     }
 
     .thumbnail p {
